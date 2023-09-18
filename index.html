@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <link rel="icon" href="terminal.png" type="image/png" />
+    <title>Biswajit's Terminal</title>
+  </head>
+
+  <body onload="loadfun()">
+    <div id="loading">
+      <img src="https://i.imgur.com/FEDTpyE.gif" alt="Loading" />
+    </div>
+    <button class="app" id="app" onclick="AppOpen()">
+      <div class="div">
+        <img src="terminal.png" alt="Terminal" id="AppIcon" />
+        <p style="color: white; font-size: small;margin-bottom: 4vh;">Terminal</p>
+      </div>
+    </button>
+    <a href="https://biswajitghoshportfolio.netlify.app/"
+      ><button class="app2">
+        <div class="div">
+          <img src="profile.jpg" alt="Profile" class="AppIcon2" />
+          <p style="color: white; font-size: small">Personal Portfolio</p>
+        </div>
+      </button></a
+    >
+    <div id="Terminal" class="Terminal">
+      <br />
+      Hi, I am <span class="name" id="element">Biswajit Ghosh :)</span
+      ><br /><br />
+      I am a <span class="game">Web Developer</span> and aspiring
+      <span class="backend">Blockchain Developer</span> ^_^<br />
+      Won
+      <a
+        class="mlh"
+        href="https://www.linkedin.com/feed/update/urn:li:activity:7088421564160839681/"
+        >Hack4Bengal 2.0 Hackathon</a
+      >
+      - Backend Lead @
+      <a
+        class="ddc"
+        href="https://www.linkedin.com/company/developer-students-club-hit/"
+        >GDSC-HITK</a
+      >
+      - Intern @
+      <a class="ddc" href="https://www.linkedin.com/company/thebengalstudio/"
+        >The Bengal Studio</a
+      >
+      -Ex-Intern @
+      <a class="ddc" href="https://www.linkedin.com/company/iqapex-labs/"
+        >IQApex Labs</a
+      >
+      <p id="Content" class="Content">
+        <br />Type help for a list of commands.<br />
+      </p>
+      <br /><span class="meh">$ </span>
+      <form><input class="command" /></form>
+      <br />
+
+      <div class="Buttons" id="Buttons">
+        <button class="x titlebutton" onclick="closeT()"></button>
+        <button class="Under titlebutton" onclick="Hide()"></button>
+        <button class="Maximize titlebutton" onclick="Maxim()"></button>
+        <span class="titlebar">Portfolio</span>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["", "Biswajit Ghosh^3000", "Biswajit"],
+        typeSpeed: 45,
+        smartBackspace: true, // Default value
+      });
+    </script>
+    <script>
+      on_load();
+    </script>
+    <script>
+      var load = document.getElementById("loading");
+      function loadfun() {
+        load.style.display = "none";
+      }
+    </script>
+  </body>
+</html>
