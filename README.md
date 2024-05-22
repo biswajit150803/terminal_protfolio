@@ -6,11 +6,11 @@ This is a simple terminal-based portfolio created using HTML, CSS, and JavaScrip
 >  Clone This Repository
 
 ```sh
-git clone https://github.com/Megh2005/Jobpedia-Frontend.git
+git clone https://github.com/[username]/[repo name].git
 ```
 > Navigate To The Code File
 ```sh
-cd Jobpedia-Frontend
+cd [repo name]
 ```
 
 > Open With Code
